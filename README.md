@@ -32,3 +32,9 @@ This project is part of the Udacity DataScience NanoDegree. Its based on data pr
 |- classifier.pkl : FInal classifier output from tryin_classifier.py 
 
 - README.md : file being looked at
+
+# Run this project
+- run in projects root directory; ETL pipeline: python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
+- run in projects root directory; ML pipeline: python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
+- run in app directory: python run.py
+- Open http://0.0.0.0:3001/

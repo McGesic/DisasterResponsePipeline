@@ -68,6 +68,7 @@ def index():
                 }
             }
         },
+        # new graph - distribution by category
                 {
             'data': [
                 Bar(
